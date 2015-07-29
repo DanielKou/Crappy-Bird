@@ -10,7 +10,7 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>4</integer>
+	<integer>5</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -41,7 +41,7 @@
 		<array>
 			<dict>
 				<key>UUID</key>
-				<integer>3</integer>
+				<integer>1</integer>
 				<key>baseClass</key>
 				<string>CCSprite</string>
 				<key>children</key>
@@ -49,9 +49,9 @@
 				<key>customClass</key>
 				<string></string>
 				<key>displayName</key>
-				<string>carrot_top</string>
+				<string>top</string>
 				<key>memberVarAssignmentName</key>
-				<string>topCarrot</string>
+				<string>top</string>
 				<key>memberVarAssignmentType</key>
 				<integer>1</integer>
 				<key>physicsBody</key>
@@ -81,12 +81,8 @@
 					<key>points</key>
 					<array>
 						<array>
-							<real>5.3974599838256836</real>
-							<real>8.7467269897460938</real>
-						</array>
-						<array>
-							<real>0.56347596645355225</real>
-							<real>22.635614395141602</real>
+							<real>0.0</real>
+							<real>0.0</real>
 						</array>
 						<array>
 							<real>0.0</real>
@@ -97,40 +93,16 @@
 							<real>336</real>
 						</array>
 						<array>
-							<real>49.841903686523438</real>
-							<real>19.857837677001953</real>
-						</array>
-						<array>
-							<real>43.540363311767578</real>
-							<real>8.7467269897460938</real>
-						</array>
-						<array>
-							<real>32.480792999267578</real>
-							<real>-0.28105047345161438</real>
-						</array>
-						<array>
-							<real>17.924587249755859</real>
-							<real>-0.28105047345161438</real>
+							<real>51</real>
+							<real>0.0</real>
 						</array>
 					</array>
 					<key>polygons</key>
 					<array>
 						<array>
 							<array>
-								<real>17.924587249755859</real>
-								<real>-0.28105047345161438</real>
-							</array>
-							<array>
-								<real>32.480792999267578</real>
-								<real>-0.28105047345161438</real>
-							</array>
-							<array>
-								<real>43.540363311767578</real>
-								<real>8.7467269897460938</real>
-							</array>
-							<array>
-								<real>49.841903686523438</real>
-								<real>19.857837677001953</real>
+								<real>51</real>
+								<real>0.0</real>
 							</array>
 							<array>
 								<real>51</real>
@@ -141,12 +113,8 @@
 								<real>336</real>
 							</array>
 							<array>
-								<real>0.56347596645355225</real>
-								<real>22.635614395141602</real>
-							</array>
-							<array>
-								<real>5.3974599838256836</real>
-								<real>8.7467269897460938</real>
+								<real>0.0</real>
+								<real>0.0</real>
 							</array>
 						</array>
 					</array>
@@ -207,7 +175,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>assets/carrot_top.png</string>
+							<string>assets/pil.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -254,9 +222,9 @@
 				<key>customClass</key>
 				<string></string>
 				<key>displayName</key>
-				<string>carrot_bottom</string>
+				<string>bottom</string>
 				<key>memberVarAssignmentName</key>
-				<string>bottomCarrot</string>
+				<string>bottom</string>
 				<key>memberVarAssignmentType</key>
 				<integer>1</integer>
 				<key>physicsBody</key>
@@ -290,52 +258,12 @@
 							<real>0.0</real>
 						</array>
 						<array>
-							<real>0.43055495619773865</real>
-							<real>290.4715576171875</real>
+							<real>0.0</real>
+							<real>336</real>
 						</array>
 						<array>
-							<real>9.4583320617675781</real>
-							<real>301.58267211914062</real>
-						</array>
-						<array>
-							<real>0.43055495619773865</real>
-							<real>302.9715576171875</real>
-						</array>
-						<array>
-							<real>0.40342822670936584</real>
-							<real>325.19378662109375</real>
-						</array>
-						<array>
-							<real>5.9589834213256836</real>
-							<real>334.916015625</real>
-						</array>
-						<array>
-							<real>16.402776718139648</real>
-							<real>336.99932861328125</real>
-						</array>
-						<array>
-							<real>37.930553436279297</real>
-							<real>336.99932861328125</real>
-						</array>
-						<array>
-							<real>46.958332061767578</real>
-							<real>332.13821411132812</real>
-						</array>
-						<array>
-							<real>51.819442749023438</real>
-							<real>324.49932861328125</real>
-						</array>
-						<array>
-							<real>51.819442749023438</real>
-							<real>303.666015625</real>
-						</array>
-						<array>
-							<real>39.319442749023438</real>
-							<real>302.277099609375</real>
-						</array>
-						<array>
-							<real>51.819442749023438</real>
-							<real>288.38821411132812</real>
+							<real>51</real>
+							<real>336</real>
 						</array>
 						<array>
 							<real>51</real>
@@ -346,70 +274,20 @@
 					<array>
 						<array>
 							<array>
-								<real>9.4583320617675781</real>
-								<real>301.58267211914062</real>
-							</array>
-							<array>
-								<real>0.43055495619773865</real>
-								<real>290.4715576171875</real>
-							</array>
-							<array>
-								<real>0.0</real>
-								<real>0.0</real>
-							</array>
-							<array>
 								<real>51</real>
 								<real>0.0</real>
 							</array>
 							<array>
-								<real>51.819442749023438</real>
-								<real>288.38821411132812</real>
+								<real>51</real>
+								<real>336</real>
 							</array>
 							<array>
-								<real>39.319442749023438</real>
-								<real>302.277099609375</real>
-							</array>
-						</array>
-						<array>
-							<array>
-								<real>39.319442749023438</real>
-								<real>302.277099609375</real>
+								<real>0.0</real>
+								<real>336</real>
 							</array>
 							<array>
-								<real>51.819442749023438</real>
-								<real>303.666015625</real>
-							</array>
-							<array>
-								<real>51.819442749023438</real>
-								<real>324.49932861328125</real>
-							</array>
-							<array>
-								<real>46.958332061767578</real>
-								<real>332.13821411132812</real>
-							</array>
-							<array>
-								<real>37.930553436279297</real>
-								<real>336.99932861328125</real>
-							</array>
-							<array>
-								<real>16.402776718139648</real>
-								<real>336.99932861328125</real>
-							</array>
-							<array>
-								<real>5.9589834213256836</real>
-								<real>334.916015625</real>
-							</array>
-							<array>
-								<real>0.40342822670936584</real>
-								<real>325.19378662109375</real>
-							</array>
-							<array>
-								<real>0.43055495619773865</real>
-								<real>302.9715576171875</real>
-							</array>
-							<array>
-								<real>9.4583320617675781</real>
-								<real>301.58267211914062</real>
+								<real>0.0</real>
+								<real>0.0</real>
 							</array>
 						</array>
 					</array>
@@ -470,7 +348,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>assets/carrot_bottom.png</string>
+							<string>assets/pil.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -509,7 +387,7 @@
 			</dict>
 			<dict>
 				<key>UUID</key>
-				<integer>1</integer>
+				<integer>3</integer>
 				<key>baseClass</key>
 				<string>CCNode</string>
 				<key>children</key>
@@ -649,6 +527,8 @@
 						</array>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>

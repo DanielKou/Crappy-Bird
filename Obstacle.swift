@@ -1,24 +1,23 @@
 import Foundation
 
 class Obstacle : CCNode {
-    weak var topCarrot : CCNode!
-    weak var bottomCarrot : CCNode!
+    weak var top : CCNode!
+    weak var bottom : CCNode!
     
-    let topCarrotMinimumPositionY : CGFloat = 128
-    let bottomCarrotMaximumPositionY : CGFloat = 440
-    let carrotDistance : CGFloat = 142
-    
+    let topMinimumPositionY : CGFloat = 128
+    let bottomMaximumPositionY : CGFloat = 440
+    let Distance : CGFloat = 142
     
     func didLoadFromCCB() {
-        topCarrot.physicsBody.sensor = true
-        bottomCarrot.physicsBody.sensor = true
+        top.physicsBody.sensor = true
+        bottom.physicsBody.sensor = true
     }
     
     func setupRandomPosition() {
         let randomPrecision : UInt32 = 100
         let random = CGFloat(arc4random_uniform(randomPrecision)) / CGFloat(randomPrecision)
-        let range = bottomCarrotMaximumPositionY - carrotDistance - topCarrotMinimumPositionY
-        topCarrot.position = ccp(topCarrot.position.x, topCarrotMinimumPositionY + (random * range));
-        bottomCarrot.position = ccp(bottomCarrot.position.x, topCarrot.position.y + carrotDistance);
+        let range = bottomMaximumPositionY - Distance - topMinimumPositionY
+        top.position = ccp(top.position.x, topMinimumPositionY + (random * range));
+        bottom.position = ccp(bottom.position.x, top.position.y + Distance);
     }
 }
