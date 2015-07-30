@@ -112,7 +112,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>assets/background.png</string>
+							<string>assets/background1.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -148,8 +148,6 @@
 						<array/>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -291,11 +289,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>174.51519775390625</real>
-							<real>370</real>
+							<real>161.43998718261719</real>
+							<real>0.20000000298023224</real>
+							<integer>1</integer>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -330,7 +328,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>assets/clouds.png</string>
+							<string>assets/cloud.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -1318,10 +1316,10 @@
 						<key>value</key>
 						<array>
 							<real>161.43998718261719</real>
-							<real>402.5</real>
+							<real>0.30000001192092896</real>
+							<integer>1</integer>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
